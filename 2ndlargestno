@@ -1,0 +1,23 @@
+package module2;
+import java.util.*;
+
+public class secndlargno2 {
+
+		public static void main(String[] args) {
+			Scanner in=new Scanner(System.in);
+			// TODO Auto-generated method stub
+			int n,i;
+	        System.out.println("Enter the length of array");
+	        n=in.nextInt();
+	        int arr[]=new int[n];
+	        for(i=0;i<n;i++)
+	        {
+	        	System.out.println("Enter the elements");
+	        	arr[i]=in.nextInt();
+	        }
+	        Arrays.sort(arr);
+	        System.out.println("Second largest element="+arr[n-2]);
+		}
+
+	}
+
